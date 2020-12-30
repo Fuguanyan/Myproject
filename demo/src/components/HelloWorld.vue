@@ -17,8 +17,10 @@
     <child>你的地盘在哪里呢？</child>
 
 </div>
+
 </template>
 <script>
+
     import Child from './Child'
     import {getApi,postApi} from '../api/api'
     export default {
@@ -45,10 +47,15 @@
         },
         methods:{
             getList() {
+                // 求一个数组里面最大的那个
+                // some判断数组中是否满足指定的条件
+                let arr = [14,20,5,3,44]
+                console.log(Math.max(...arr))
                 getApi().then(res => {
                     console.log(res,'0000')
                 })
             },
+        
         
             login() {
                 let obj = {

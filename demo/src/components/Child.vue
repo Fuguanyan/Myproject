@@ -21,9 +21,9 @@
         },
         methods:{
             show() {
-            var arr = 'abcdefg'
-        var str = arr.slice(1,5) + '***'
-            console.log(str,'88888')
+            var arr1 = 'abcdefg'
+            var str = arr.slice(1,5) + '***'
+                console.log(str,'88888')
             }
         }
     };
