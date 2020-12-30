@@ -49,6 +49,7 @@
             getList() {
                 // 求一个数组里面最大的那个
                 // some判断数组中是否满足指定的条件
+                // ?
                 let arr = [14,20,5,3,44]
                 console.log(Math.max(...arr))
                 getApi().then(res => {
